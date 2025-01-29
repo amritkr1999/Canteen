@@ -1,0 +1,35 @@
+/* Dashboard.css */
+.dashboard-container {
+    display: flex;
+    flex-direction: column; /* Or row if you prefer a horizontal layout */
+    padding: 20px;
+    font-family: sans-serif;
+  }
+  
+  .user-info {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  .order-history, .menu {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    padding: 8px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  /* ... more styles */
