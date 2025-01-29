@@ -1,5 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Header from './ui-component/custom-components/header';
+import CustomerDashboard from './ui-component/customerDashboard/customerDashboard';
+import CanteenDashboard from './ui-component/salesDashboard/salesDashboard';
 
 function App() {
   return (
@@ -21,5 +26,20 @@ function App() {
     </div>
   );
 }
+// function App() {
+//   return (
+//     <Router>
+//       <Header /> 
+//       <div className="app-content"> 
+//         <Routes>
+//           <Route path="/" element={<CustomerDashboard />} />
+//           <Route path="/salesDashboard" element={<CanteenDashboard />} />
+//           {/* <Route path="/contact" element={<Contact />} />  */}
+//            {/* ... other routes ... */}
+//         </Routes>
+//       </div>
+//     </Router>
+//   );
+// }
 
 export default App;

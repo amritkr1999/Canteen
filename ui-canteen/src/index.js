@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import CustomerDashboard from './ui-component/customerDashboard/customerDashboard';
 import CanteenDashboard from './ui-component/salesDashboard/salesDashboard';
+import Login from './ui-component/userLogin/userLogin';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,6 +13,7 @@ root.render(
     {/* <App /> */}
     {/* <CustomerDashboard/> */}
     <CanteenDashboard/>
+    {/* <Login /> */}
   </React.StrictMode>
 );
 
