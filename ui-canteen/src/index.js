@@ -4,12 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import CustomerDashboard from './ui-component/customerDashboard/customerDashboard';
+import CanteenDashboard from './ui-component/salesDashboard/salesDashboard';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <CustomerDashboard/>
+    {/* <CustomerDashboard/> */}
+    <CanteenDashboard/>
   </React.StrictMode>
 );
 
